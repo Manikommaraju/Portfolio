@@ -168,7 +168,7 @@ nav.sticky .menu-btn{
   border: 5px solid #007bff;
   object-fit: cover;
   position: absolute;
-  right: 300px;             
+  right: 200px;             
   top: 50%;
   transform: translateY(-50%);
 }
@@ -589,4 +589,5 @@ footer .text span a:hover{
     color: #4070f4;
   }
 }
+
 
