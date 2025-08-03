@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mani's Portfolio </title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <!-- Move to up button -->
+    <div class="scroll-button">
+      <a href="#home"><i class="fas fa-arrow-up"></i></a>
+    </div>
+    <!-- navgaition menu -->
+    <nav>
+      <div class="navbar">
+        <div class="logo"><a href="#">Portfolio.</a></div>
+        <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <div class="cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+        </ul>
+        <div class="media-icons">
+          <a href="https://github.com/Manikommaraju" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.instagram.com/m_a_n_i_02_?" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/mani-mani-kommaraju/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+    <!-- Home Section Start -->
+<section class="home" id="home">
+  <div class="home-content">
+
+    <!-- Profile Image -->
+    <div class="profile-img">
+      <img src="about.jpg" alt="Profile Image">
+    </div>
+
+    <div class="text">
+      <div class="text-one">Hello,</div>
+      <div class="text-two">I'm Manikanta Kommaraju</div>
+      <div class="text-three">Java Developer</div>
+      <div class="text-four">From Kadappa</div>
+    </div>
+
+    <div class="button">
+      <button onclick="window.location.href='mailto:manikommaraju90@gmail.com'">Hire Me</button>
+    </div>
+  </div>
+</section>
+   
+    <!-- About Section Start -->
+    <section class="about" id="about">
+      <div class="content">
+        <div class="title"><span>About Me</span></div>
+        <div class="about-details">
+          <div class="left">
+            <img src="about.jpg" alt="" />
+          </div>
+          <div class="right">
+            <div class="topic">Devlopment is my Passion</div>
+            <p>
+                Enthusiastic and detail-oriented Java Full Stack Developer Fresher with a strong foundation in Core Java, Spring Boot, Hibernate, and MySQL, along with hands-on experience in front-end technologies like HTML, CSS, JavaScript, Bootstrap, and React/Angular. Skilled in building responsive and scalable web applications, integrating RESTful APIs, and managing databases efficiently. Passionate about learning new technologies and contributing to innovative software solutions in a collaborative environment.
+            </p>
+            <div class="button">
+              <a href="Manikommaraju-resume.pdf" download target="_blank"><button>Download CV</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+     <!-- Education Section Start -->
+    <section class="qualification section" id="education">
+      <div class="title"><span>Education</span></div>
+      <div class="qualification__container container">
+        <div class="qualification__tabs">
+          <div class="qualification__button button--flex qualification__active" data-target='#education'>
+            <i class="uil uil-graduation-cap qualification__icon"></i>
+          </div>
+        </div>
+        <div class="qualification__sections">
+          <div class="qualification__content qualification__active" data-content id="education">
+            <div class="qualification__data">
+              <div>
+                <h3 class="qualification__title">B-Tech: Computer Science Engineering-Artificial Intelligence</h3>
+                <span class="qualification__subtitle">MVR College Autonomous  - JNTUK University</span>
+                <div class="qualification__calendar">
+                  <i class="uil uil-calendar-alt"></i>
+                  2021 - 2025<br>
+                  Cgpa:8.4
+                </div>
+              </div>
+              <div>
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
+              </div>
+            </div>
+            <div class="qualification__data">
+              <div></div>
+              <div>
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
+              </div>
+              <div>
+                <h3 class="qualification__title">Intermediate: MPC</h3>
+                <span class="qualification__subtitle">Narayana Junior College</span>
+                <div class="qualification__calendar">
+                  <i class="uil uil-calendar-alt"></i>
+                  2019 - 2021<br>
+                  Cgpa:88.6
+                </div>
+              </div>
+            </div>
+            <div class="qualification__data">
+              <div>
+                <h3 class="qualification__title">SCC</h3>
+                <span class="qualification__subtitle">Rayalaseema High School </span>
+                <div class="qualification__calendar">
+                  <i class="uil uil-calendar-alt"></i>
+                  2018 - 2019<br>
+                  Cgpa:9.2
+                </div>
+              </div>
+              <div>
+                <span class="qualification__rounder"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    <!-- My Skill Section Start -->
+    <!-- Section Tag and Other Div will same where we need to put same CSS -->
+    <section class="skills" id="skills">
+      <div class="content">
+        <div class="title"><span>My Skills</span></div>
+        <div class="skills-details">
+          <div class="text">
+            <div class="topic">Skills Reflects Our Knowledge</div>
+            <p>I am a passionate and dedicated fresher with strong skills in web development and programming. I specialize in creating responsive and user-friendly web applications using HTML, CSS, JavaScript, and Bootstrap. Along with frontend expertise, I have hands-on experience in Java for backend development and MongoDB for managing dynamic databases. I enjoy learning new technologies and continuously improving my skills to deliver efficient and creative solutions. My goal is to build innovative, functional, and visually appealing digital experiences</p>
+            <div class="experience">
+              <div class="exp">
+                Years Of  Experience<br />
+                Fresher
+              </div>
+            </div>
+          </div>
+          <div class="boxes">
+            <div class="box">
+              <div class="topic">HTML</div>
+              <div class="per">90%</div>
+            </div>
+            <div class="box">
+              <div class="topic">CSS</div>
+              <div class="per">80%</div>
+            </div>
+            <div class="box">
+              <div class="topic">Java</div>
+              <div class="per">70%</div>
+            </div>
+            <div class="box">
+              <div class="topic">Mango DB</div>
+              <div class="per">60%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- My Services Section Start -->
+    <section class="services" id="services">
+      <div class="content">
+        <div class="title"><span>My Services</span></div>
+        <div class="boxes">
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-desktop"></i>
+            </div>
+            <div class="topic">Web Devlopment</div>
+            <p>I create responsive and user-friendly websites using HTML, CSS, JavaScript, and Bootstrap. My focus is on building visually appealing and functional web pages that provide an excellent user experience</p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-coffee"></i>
+            </div>
+            <div class="topic">Backend Java</div>
+            <p>I develop robust and secure server-side applications using Java. I am skilled in handling APIs, managing databases, and ensuring smooth communication between the frontend and backend.
+</p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-database"></i>
+            </div>
+            <div class="topic">Mango DB</div>
+            <p>I work with MongoDB, a NoSQL database, to store and manage large amounts of data efficiently. I can design optimized database structures and perform CRUD operations to support dynamic web applications.</p>
+          </div>
+    </section>
+    <!-- Contact Me section Start -->
+    <section class="contact" id="contact">
+      <div class="content">
+        <div class="title"><span>Contact Me</span></div>
+        <div class="text">
+          <div class="topic">Have Any Vacancy?</div>
+          <div class="button">
+            <button onclick="window.open('https://www.linkedin.com/in/mani-mani-kommaraju/', '_blank')">Let's Chat</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer Section Start -->
+    <footer>
+      <div class="text">
+        <span>Created By <a href="#">Manikanta</a> | &#169; 2025 All Rights Reserved</span>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
